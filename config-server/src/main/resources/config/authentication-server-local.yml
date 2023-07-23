@@ -1,0 +1,22 @@
+logging:
+  file:
+    name: logs/authentication.log
+    max-size: 500MB
+    max-history: 10
+  level:
+    root: info
+    org.msa.authentication: debug
+    
+spring:
+  config:
+    import:
+      - classpath:/config/datasource-local.yml
+    
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -1,0 +1,504 @@
+2023-07-23T20:43:57.679+09:00  INFO 19016 --- [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2023-07-23T20:43:58.412+09:00  INFO 19016 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=91122683-ea96-3dd8-8711-9b0add718778
+2023-07-23T20:43:58.661+09:00  INFO 19016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2023-07-23T20:43:58.672+09:00  INFO 19016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-23T20:43:58.672+09:00  INFO 19016 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-07-23T20:43:58.792+09:00  INFO 19016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-23T20:43:58.793+09:00  INFO 19016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
+2023-07-23T20:43:59.622+09:00  INFO 19016 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2023-07-23T20:43:59.624+09:00  INFO 19016 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2023-07-23T20:43:59.776+09:00  INFO 19016 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2023-07-23T20:43:59.776+09:00  INFO 19016 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2023-07-23T20:44:00.972+09:00  INFO 19016 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-23T20:44:01.010+09:00  WARN 19016 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-23T20:44:01.028+09:00  INFO 19016 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-23T20:44:01.057+09:00  INFO 19016 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-23T20:44:01.058+09:00  INFO 19016 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2023-07-23T20:44:01.067+09:00  INFO 19016 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1690112641066 with initial instances count: 0
+2023-07-23T20:44:01.104+09:00  INFO 19016 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2023-07-23T20:44:01.106+09:00  WARN 19016 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2023-07-23T20:44:01.122+09:00  INFO 19016 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2023-07-23T20:44:01.123+09:00  INFO 19016 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2023-07-23T20:44:01.129+09:00  INFO 19016 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-07-23T20:44:01.204+09:00  INFO 19016 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2023-07-23T20:44:01.218+09:00  INFO 19016 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2023-07-23T20:44:01.218+09:00  INFO 19016 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2023-07-23T20:44:01.218+09:00  INFO 19016 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2023-07-23T20:44:01.218+09:00  INFO 19016 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2023-07-23T20:44:01.219+09:00  INFO 19016 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2023-07-23T20:44:01.227+09:00  INFO 19016 --- [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2023-07-23T20:44:01.232+09:00  INFO 19016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2023-07-23T20:44:01.233+09:00  INFO 19016 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2023-07-23T20:44:01.397+09:00  INFO 19016 --- [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 5.215 seconds (process running for 5.949)
+2023-07-23T20:44:18.693+09:00  INFO 19016 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23T20:44:18.693+09:00  INFO 19016 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-23T20:44:18.695+09:00  INFO 19016 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-23T20:44:18.949+09:00  INFO 19016 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AUTHENTICATION-SERVER/DESKTOP-4VPH1H9.mshome.net:authentication-server:8900 with status UP (replication=false)
+2023-07-23T20:44:21.416+09:00  INFO 19016 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-4VPH1H9.mshome.net:2a692cd4e2aa75cbd5cd8f5b37ecaab1 with status UP (replication=false)
+2023-07-23T20:44:23.627+09:00  INFO 19016 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-4VPH1H9.mshome.net:gateway-server:8070 with status UP (replication=false)
+2023-07-23T20:44:28.237+09:00  INFO 19016 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HISTORY-SERVICE/DESKTOP-4VPH1H9.mshome.net:331145363e89953aab0f0e1d97ef8d65 with status UP (replication=false)
+2023-07-23T20:45:01.220+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-07-23T20:45:23.961+09:00  INFO 19016 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-4VPH1H9.mshome.net:2a692cd4e2aa75cbd5cd8f5b37ecaab1 with status DOWN (replication=false)
+2023-07-23T20:45:27.759+09:00  INFO 19016 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ITEM-SERVICE/DESKTOP-4VPH1H9.mshome.net:2a692cd4e2aa75cbd5cd8f5b37ecaab1 (replication=false)
+2023-07-23T20:46:01.224+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2023-07-23T20:47:01.224+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-07-23T20:48:01.232+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2023-07-23T20:49:01.238+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2023-07-23T20:49:47.679+09:00  INFO 19016 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-4VPH1H9.mshome.net:821fb236e5ec601d7ebcbac03b7a4d98 with status UP (replication=false)
+2023-07-23T20:50:01.246+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2023-07-23T20:51:01.246+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2023-07-23T20:52:01.258+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-07-23T20:52:49.340+09:00  INFO 19016 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-4VPH1H9.mshome.net:821fb236e5ec601d7ebcbac03b7a4d98 with status DOWN (replication=false)
+2023-07-23T20:52:52.056+09:00 ERROR 19016 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://172.30.128.1:2639/actuator/metrics/jvm.memory.used": Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:405) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.msa.eurekaserver.EurekaServerApplication.getMeasurements(EurekaServerApplication.java:67) ~[main/:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$1(EurekaServerApplication.java:49) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$0(EurekaServerApplication.java:41) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.getApplication(EurekaServerApplication.java:40) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87) ~[httpclient5-5.1.4.jar:5.1.4]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862) ~[spring-web-6.0.6.jar:6.0.6]
+	... 20 common frames omitted
+
+2023-07-23T20:52:53.614+09:00  INFO 19016 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HISTORY-SERVICE/DESKTOP-4VPH1H9.mshome.net:331145363e89953aab0f0e1d97ef8d65 with status DOWN (replication=false)
+2023-07-23T20:53:01.270+09:00  INFO 19016 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2023-07-23T20:53:02.072+09:00 ERROR 19016 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://172.30.128.1:2639/actuator/metrics/jvm.memory.used": Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:405) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.msa.eurekaserver.EurekaServerApplication.getMeasurements(EurekaServerApplication.java:67) ~[main/:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$1(EurekaServerApplication.java:49) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$0(EurekaServerApplication.java:41) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.getApplication(EurekaServerApplication.java:40) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87) ~[httpclient5-5.1.4.jar:5.1.4]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862) ~[spring-web-6.0.6.jar:6.0.6]
+	... 20 common frames omitted
+
+2023-07-23T20:53:12.038+09:00 ERROR 19016 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://172.30.128.1:2639/actuator/metrics/jvm.memory.used": Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:405) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.msa.eurekaserver.EurekaServerApplication.getMeasurements(EurekaServerApplication.java:67) ~[main/:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$1(EurekaServerApplication.java:49) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$0(EurekaServerApplication.java:41) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.getApplication(EurekaServerApplication.java:40) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87) ~[httpclient5-5.1.4.jar:5.1.4]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862) ~[spring-web-6.0.6.jar:6.0.6]
+	... 20 common frames omitted
+
+2023-07-23T20:53:22.031+09:00 ERROR 19016 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://172.30.128.1:2639/actuator/metrics/jvm.memory.used": Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:405) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.msa.eurekaserver.EurekaServerApplication.getMeasurements(EurekaServerApplication.java:67) ~[main/:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$1(EurekaServerApplication.java:49) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$0(EurekaServerApplication.java:41) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.getApplication(EurekaServerApplication.java:40) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87) ~[httpclient5-5.1.4.jar:5.1.4]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862) ~[spring-web-6.0.6.jar:6.0.6]
+	... 20 common frames omitted
+
+2023-07-23T20:53:32.042+09:00 ERROR 19016 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://172.30.128.1:2639/actuator/metrics/jvm.memory.used": Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:405) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.msa.eurekaserver.EurekaServerApplication.getMeasurements(EurekaServerApplication.java:67) ~[main/:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$1(EurekaServerApplication.java:49) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$0(EurekaServerApplication.java:41) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.getApplication(EurekaServerApplication.java:40) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87) ~[httpclient5-5.1.4.jar:5.1.4]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862) ~[spring-web-6.0.6.jar:6.0.6]
+	... 20 common frames omitted
+
+2023-07-23T20:53:37.398+09:00  INFO 19016 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-4VPH1H9.mshome.net:gateway-server:8070 with status DOWN (replication=false)
+2023-07-23T20:53:42.066+09:00 ERROR 19016 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://172.30.128.1:2639/actuator/metrics/jvm.memory.used": Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:405) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.msa.eurekaserver.EurekaServerApplication.getMeasurements(EurekaServerApplication.java:67) ~[main/:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$1(EurekaServerApplication.java:49) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$0(EurekaServerApplication.java:41) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.getApplication(EurekaServerApplication.java:40) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87) ~[httpclient5-5.1.4.jar:5.1.4]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862) ~[spring-web-6.0.6.jar:6.0.6]
+	... 20 common frames omitted
+
+2023-07-23T20:53:45.766+09:00  INFO 19016 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AUTHENTICATION-SERVER/DESKTOP-4VPH1H9.mshome.net:authentication-server:8900 with status DOWN (replication=false)
+2023-07-23T20:53:52.064+09:00 ERROR 19016 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://172.30.128.1:2639/actuator/metrics/jvm.memory.used": Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:405) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.msa.eurekaserver.EurekaServerApplication.getMeasurements(EurekaServerApplication.java:67) ~[main/:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$1(EurekaServerApplication.java:49) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.lambda$0(EurekaServerApplication.java:41) ~[main/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.msa.eurekaserver.EurekaServerApplication.getApplication(EurekaServerApplication.java:40) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.6.jar:6.0.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.0.6.jar:6.0.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://172.30.128.1:2639 [/172.30.128.1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87) ~[httpclient5-5.1.4.jar:5.1.4]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569) ~[na:na]
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54) ~[httpclient5-5.1.4.jar:5.1.4]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862) ~[spring-web-6.0.6.jar:6.0.6]
+	... 20 common frames omitted
+
+2023-07-23T20:53:54.612+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-23T20:53:54.613+09:00  INFO 19016 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-23T20:53:54.613+09:00  INFO 19016 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-23T20:53:54.614+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2023-07-23T20:53:54.615+09:00  INFO 19016 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-23T20:53:54.627+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-23T20:53:54.628+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-23T20:53:54.639+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2023-07-23T20:53:54.643+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-07-23T20:53:54.650+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-07-23T20:53:54.650+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2023-07-23T20:53:54.650+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2023-07-23T20:53:54.655+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2023-07-23T20:53:54.661+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-07-23T20:53:54.661+09:00  INFO 19016 --- [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

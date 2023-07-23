@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: docker
+  cloud:
+    config:
+      uri: http://config-server:8080
+    loadbalancer:
+      ribbon:
+        enabled: false

@@ -1,0 +1,201 @@
+2023-07-23T20:44:16.368+09:00  INFO [gateway-server,,] 17852 --- [main] o.m.g.GatewayServerApplication           : The following 1 profile is active: "local"
+2023-07-23T20:44:17.628+09:00  INFO [gateway-server,,] 17852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-23T20:44:17.885+09:00  INFO [gateway-server,,] 17852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 245 ms. Found 1 JPA repository interfaces.
+2023-07-23T20:44:18.388+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=669973d7-9beb-3c6e-a5de-4c4145819114
+2023-07-23T20:44:18.645+09:00  INFO [gateway-server,,] 17852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-23T20:44:18.648+09:00  INFO [gateway-server,,] 17852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-23T20:44:18.650+09:00  INFO [gateway-server,,] 17852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-23T20:44:19.032+09:00  INFO [gateway-server,,] 17852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-23T20:44:19.097+09:00  INFO [gateway-server,,] 17852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-07-23T20:44:19.413+09:00  INFO [gateway-server,,] 17852 --- [main] com.zaxxer.hikari.HikariDataSource       : Hikari - Starting...
+2023-07-23T20:44:19.508+09:00  INFO [gateway-server,,] 17852 --- [main] com.zaxxer.hikari.pool.HikariPool        : Hikari - Added connection org.mariadb.jdbc.Connection@5d93ff21
+2023-07-23T20:44:19.511+09:00  INFO [gateway-server,,] 17852 --- [main] com.zaxxer.hikari.HikariDataSource       : Hikari - Start completed.
+2023-07-23T20:44:19.540+09:00  INFO [gateway-server,,] 17852 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-07-23T20:44:19.542+09:00  WARN [gateway-server,,] 17852 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-07-23T20:44:20.455+09:00  INFO [gateway-server,,] 17852 --- [main] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3fcb737] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-07-23T20:44:20.618+09:00  INFO [gateway-server,,] 17852 --- [main] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f69d246] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-07-23T20:44:20.955+09:00  INFO [gateway-server,,] 17852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-23T20:44:20.965+09:00  INFO [gateway-server,,] 17852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-23T20:44:21.253+09:00  WARN [gateway-server,,] 17852 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.msa.gatewayserver.repository.AccountRepository
+2023-07-23T20:44:22.032+09:00  INFO [gateway-server,,] 17852 --- [main] .g.c.LocalResponseCacheAutoConfiguration : Initializing Caffeine
+2023-07-23T20:44:22.079+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2023-07-23T20:44:22.079+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2023-07-23T20:44:22.079+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2023-07-23T20:44:22.079+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-07-23T20:44:22.080+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2023-07-23T20:44:22.081+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-07-23T20:44:22.685+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-07-23T20:44:23.053+09:00  INFO [gateway-server,,] 17852 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-23T20:44:23.193+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-23T20:44:23.249+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-23T20:44:23.254+09:00  INFO [gateway-server,,] 17852 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-23T20:44:23.280+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-23T20:44:23.280+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-23T20:44:23.280+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-23T20:44:23.280+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-23T20:44:23.280+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-23T20:44:23.281+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-23T20:44:23.281+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-23T20:44:23.569+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-23T20:44:23.571+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-23T20:44:23.574+09:00  INFO [gateway-server,,] 17852 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-23T20:44:23.581+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1690112663578 with initial instances count: 0
+2023-07-23T20:44:23.583+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2023-07-23T20:44:23.584+09:00  INFO [gateway-server,,] 17852 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1690112663584, current=UP, previous=STARTING]
+2023-07-23T20:44:23.586+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-4VPH1H9.mshome.net:gateway-server:8070: registering service...
+2023-07-23T20:44:23.629+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-4VPH1H9.mshome.net:gateway-server:8070 - registration status: 204
+2023-07-23T20:44:23.799+09:00  INFO [gateway-server,,] 17852 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8070
+2023-07-23T20:44:23.800+09:00  INFO [gateway-server,,] 17852 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2023-07-23T20:44:24.119+09:00  INFO [gateway-server,,] 17852 --- [main] o.m.g.GatewayServerApplication           : Started GatewayServerApplication in 9.311 seconds (process running for 10.216)
+2023-07-23T20:44:42.851+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5MDExMjY4NiwiaWF0IjoxNjkwMTEyNjc2fQ.QHQ9XwIdbLuI6W4rQLFSgThoANjErim_yIbnL9hLIMeyYzf-MotzOlZgnGvvyFWfBek9DQ0xg_yzK7tG9FcARw
+2023-07-23T20:44:43.004+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = true
+2023-07-23T20:44:43.078+09:00  WARN [gateway-server,,] 17852 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2023-07-23T20:44:44.256+09:00  WARN [gateway-server,,] 17852 --- [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinWebClientSender@5f9f1886}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2023-07-23T20:44:44.256+09:00  WARN [gateway-server,,] 17852 --- [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinWebClientSender@5f9f1886}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to WebClientRequestException(Connection refused: no further information: localhost/127.0.0.1:9411)
+
+org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136) ~[spring-webflux-6.0.6.jar:6.0.6]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136) ~[spring-webflux-6.0.6.jar:6.0.6]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:204) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:225) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:274) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:326) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:211) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:471) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:615) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:602) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:336) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1717) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:192) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:311) ~[reactor-netty-http-1.1.4.jar:1.1.4]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:162) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:475) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:429) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:201) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:560) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:315) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4485) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:587) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:541) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:265) ~[reactor-netty-core-1.1.4.jar:1.1.4]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99) ~[reactor-core-3.5.3.jar:3.5.3]
+		at reactor.core.publisher.Mono.block(Mono.java:1710) ~[reactor-core-3.5.3.jar:3.5.3]
+		at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinWebClientSender$WebClientHttpPostCall.doExecute(ZipkinWebClientSender.java:67) ~[spring-boot-actuator-autoconfigure-3.0.4.jar:3.0.4]
+		at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinWebClientSender$WebClientHttpPostCall.doExecute(ZipkinWebClientSender.java:48) ~[spring-boot-actuator-autoconfigure-3.0.4.jar:3.0.4]
+		at zipkin2.Call$Base.execute(Call.java:391) ~[zipkin-2.23.2.jar:na]
+		at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.16.3.jar:na]
+		at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) ~[zipkin-reporter-2.16.3.jar:na]
+		at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.89.Final.jar:4.1.89.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.89.Final.jar:4.1.89.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-07-23T20:44:49.172+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5MDExMjY4NiwiaWF0IjoxNjkwMTEyNjc2fQ.QHQ9XwIdbLuI6W4rQLFSgThoANjErim_yIbnL9hLIMeyYzf-MotzOlZgnGvvyFWfBek9DQ0xg_yzK7tG9FcARw
+2023-07-23T20:44:49.174+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = true
+2023-07-23T20:44:49.182+09:00  WARN [gateway-server,,] 17852 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2023-07-23T20:44:53.573+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-23T20:44:53.574+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-23T20:44:53.574+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-23T20:44:53.574+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-23T20:44:53.574+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-23T20:44:53.574+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-07-23T20:44:53.574+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-23T20:44:53.584+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-23T20:45:07.222+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5MDExMjY4NiwiaWF0IjoxNjkwMTEyNjc2fQ.QHQ9XwIdbLuI6W4rQLFSgThoANjErim_yIbnL9hLIMeyYzf-MotzOlZgnGvvyFWfBek9DQ0xg_yzK7tG9FcARw
+2023-07-23T20:45:07.224+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = true
+2023-07-23T20:45:07.251+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: d6af9f98-3, method: POST , url: http://localhost:8070/v1/item/add/C
+2023-07-23T20:45:07.263+09:00  INFO [gateway-server,,] 17852 --- [boundedElastic-1] o.m.gatewayserver.filter.LoggingFilter   : request.id: d6af9f98-3, request body :{
+    "id" : "1",
+    "name" : "item1",
+    "description" : "item description1",
+    "count" : 100
+}
+2023-07-23T20:45:12.769+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: d6af9f98-3, method: POST, url: http://localhost:8070/v1/item/add/C, 
+response body :{"code":"200","message":"success"}
+2023-07-23T20:49:23.292+09:00  INFO [gateway-server,,] 17852 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-23T20:50:23.124+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5MDExMjY4NiwiaWF0IjoxNjkwMTEyNjc2fQ.QHQ9XwIdbLuI6W4rQLFSgThoANjErim_yIbnL9hLIMeyYzf-MotzOlZgnGvvyFWfBek9DQ0xg_yzK7tG9FcARw
+2023-07-23T20:50:23.127+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = true
+2023-07-23T20:50:23.130+09:00  WARN [gateway-server,,] 17852 --- [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2023-07-23T20:50:24.973+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY5MDExMjY4NiwiaWF0IjoxNjkwMTEyNjc2fQ.QHQ9XwIdbLuI6W4rQLFSgThoANjErim_yIbnL9hLIMeyYzf-MotzOlZgnGvvyFWfBek9DQ0xg_yzK7tG9FcARw
+2023-07-23T20:50:24.976+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.g.filter.TokenCheckFilter            : user authentication check result = true
+2023-07-23T20:50:24.980+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: d6af9f98-5, method: POST , url: http://localhost:8070/v1/item/add/C
+2023-07-23T20:50:24.981+09:00  INFO [gateway-server,,] 17852 --- [boundedElastic-2] o.m.gatewayserver.filter.LoggingFilter   : request.id: d6af9f98-5, request body :{
+    "id" : "1",
+    "name" : "item1",
+    "description" : "item description1",
+    "count" : 100
+}
+2023-07-23T20:50:25.076+09:00  INFO [gateway-server,,] 17852 --- [reactor-http-nio-3] o.m.gatewayserver.filter.LoggingFilter   : request.id: d6af9f98-5, method: POST, url: http://localhost:8070/v1/item/add/C, 
+response body :{"code":"200","message":"success"}
+2023-07-23T20:53:37.392+09:00  INFO [gateway-server,,] 17852 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-23T20:53:37.393+09:00  INFO [gateway-server,,] 17852 --- [RMI TCP Connection(16)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2023-07-23T20:53:37.393+09:00  INFO [gateway-server,,] 17852 --- [RMI TCP Connection(16)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1690113217393, current=DOWN, previous=UP]
+2023-07-23T20:53:37.393+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-4VPH1H9.mshome.net:gateway-server:8070: registering service...
+2023-07-23T20:53:37.394+09:00  INFO [gateway-server,,] 17852 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-23T20:53:37.394+09:00  INFO [gateway-server,,] 17852 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-23T20:53:37.400+09:00  INFO [gateway-server,,] 17852 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-4VPH1H9.mshome.net:gateway-server:8070 - registration status: 204
+2023-07-23T20:53:37.434+09:00  INFO [gateway-server,,] 17852 --- [RMI TCP Connection(16)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-23T20:53:37.436+09:00  INFO [gateway-server,,] 17852 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : Hikari - Shutdown initiated...
+2023-07-23T20:53:37.440+09:00  INFO [gateway-server,,] 17852 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : Hikari - Shutdown completed.

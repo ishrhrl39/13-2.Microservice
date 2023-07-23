@@ -1,0 +1,37 @@
+logging:
+  file:
+    name: logs/api-local3.log
+    max-size: 500MB
+    max-history: 10
+  level:
+    root: info
+    org.msa.item: debug
+    
+spring:
+  config:
+    import:
+      - classpath:/config/datasource-docker.yml
+        
+springdoc:
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json
+  swagger-ui:
+    operations-sorter: alpha
+    tags-sorter: alpha
+    path: /swagger-ui.html
+    disable-swagger-default-url: true
+    display-query-params-without-oauth2: true
+    
+token:
+  expiration_time: 86400000
+  secret: SECU100
+
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.hostname}:${spring.application.instance_id:${random.value}}
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka

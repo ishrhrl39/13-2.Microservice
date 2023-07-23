@@ -1,0 +1,29 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: gateway-server 
+  profiles:
+    active: local
+  cloud:
+    config:
+      uri: http://localhost:8080
+    loadbalancer:
+      ribbon:
+        enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans
+  tracing:
+    sampling:
+      probability: 1.0
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+      
+logging:
+  pattern:
+    level: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
